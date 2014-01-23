@@ -41,6 +41,7 @@
 				<div class="price_label">$ 15<small>.00</small></div>
 				<div class="btn_detail"><a href="#">Detail</a></div>
 			</div>
+                    
 			<div class="product_box">
 				<div class="stamp_add"></div>
 				<div class="product_img" >
@@ -55,6 +56,7 @@
 				<div class="price_label">$ 15<small>.00</small></div>
 				<div class="btn_detail"><a href="#">Detail</a></div>
 			</div>
+                    
 			<div class="product_box">
 				<div class="stamp_add"></div>
 				<div class="product_img" >
@@ -69,6 +71,7 @@
 				<div class="price_label">$ 15<small>.00</small></div>
 				<div class="btn_detail"><a href="#">Detail</a></div>
 			</div>
+                    
 		</div>
 	</div>
 	<!------------------------- MAIN CONTENT ------------------------------->
