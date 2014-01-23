@@ -9,6 +9,17 @@
 }
 
 
+@media all and (max-width: 480px){
+    .screen_content{
+         width: 480px;
+         
+    }
+    .product_box{
+        margin-top: 30px;
+    }
+}
+
+
 .btn_detail{
 	padding:5px 0;
 }
