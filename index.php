@@ -29,8 +29,8 @@
 			
 			<div class="content_box">
 				<h3>Our e-Shop</h3>
-				<img src="images/contents/content1.jpg"/>
-				<p class="content_text">
+				
+				<p class="content_text"><img src="images/contents/content1.jpg"/>
 					Your partner for responding to challenges related to climate policies and emissions trading.
 				</p>
 				<div class="btn_goto_outer">
@@ -39,8 +39,8 @@
 			</div>
 			<div class="content_box">
 				<h3>News and Updates</h3>
-				<img src="images/contents/content1.jpg"/>
-				<p class="content_text">
+				
+				<p class="content_text"><img src="images/contents/content1.jpg"/>
 					Your partner for responding to challenges related to climate policies and emissions trading.
 				</p>
 				<div class="btn_goto_outer">
@@ -49,8 +49,8 @@
 			</div>
 			<div class="content_box">
 				<h3>What We Do</h3>
-				<img src="images/contents/content1.jpg"/>
-				<p class="content_text">
+				
+				<p class="content_text"><img src="images/contents/content1.jpg"/>
 					Your partner for responding to challenges related to climate policies and emissions trading.
 				</p>
 				<div class="btn_goto_outer">
