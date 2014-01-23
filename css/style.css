@@ -70,8 +70,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', end
 	padding-top:20px;
 	padding-bottom:10px;
 }
+.footer_middle .break{
+    display: none;
+}
 .footer_middle hr{
-	
+	float:left;
+        width:100%;
 	border:1px solid  grey;
 	
 }
@@ -274,15 +278,54 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 /*Config for iPad */
 @media only screen and (max-width: 768px) {
-    .screen{
-       width:600px;
+    #banner img{
+        min-width: 100%;
+        width:768px;
+    }
+    .content_box{
+        width:600px;
     }
     .content_outer{
-        min-width:610px;
+        min-width:670px;
         width:auto;
+     }
+     
+     .content_text img{
+         float:left;
+         padding-right:20px;
+     }
+     .footer_box{
+        
+         margin-right:50px;
+     }
+     .footer_middle .break{
+        display: block;
+     }
+     .footer_middle ul{
+        float:left;
+     }
+     .footer_middle ul li{
+         padding-right:12px;
+     }
+    .screen{
+       width:650px;
+    }
+    .screen_slide_text{
+         width: 650px;
+     }
+     .slide_outer{
+         width:100%;
+         min-width:670px;
+     }
+     .slide_text{
+         bottom:10px;
+         left:15px;
      }
      .top_menu li{
          padding:0;
      }
+     
+     
+     
 }
 /*End config for iPad */
