@@ -1,4 +1,12 @@
-
+@media all and (max-width: 960px){
+    .screen_content{
+         width: 960px;
+         
+    }
+    .product_box{
+        margin-top: 30px;
+    }
+}
 
 
 .btn_detail{
