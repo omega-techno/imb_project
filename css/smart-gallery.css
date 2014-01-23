@@ -219,3 +219,24 @@
 {
 	clear: both;
 }
+@media only screen and (max-width: 768px) {
+    #banner{
+        height:195px;
+    }
+    #banner img{
+        min-width: 100%;
+        width:768px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    body{
+        font-size:22px;
+    }
+    #banner{
+        width:170px;
+    }
+    #banner img{
+        min-width: 100%;
+        width:668px;
+    }
+}
