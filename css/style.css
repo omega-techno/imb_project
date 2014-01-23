@@ -9,15 +9,7 @@ a{
 body{
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size:14px;
-	background: rgb(96,108,136); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(96,108,136,1) 0%, rgba(63,76,107,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(96,108,136,1)), color-stop(100%,rgba(63,76,107,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
-
+	background-color:#004165;
 
 
 
@@ -278,10 +270,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 /*Config for iPad */
 @media only screen and (max-width: 768px) {
-    #banner img{
-        min-width: 100%;
-        width:768px;
-    }
+    
     .content_box{
         width:600px;
     }
@@ -329,3 +318,67 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
      
 }
 /*End config for iPad */
+/*Config for iPhone */
+@media only screen and (max-width: 640px) {
+    body{
+        font-size:22px;
+    }
+    
+    .divider{
+        display:none;
+    }
+    .content_box{
+        width:600px;
+    }
+    .content_outer{
+        min-width:570px;
+        width:auto;
+     }
+     .slide_text{
+         width:540px;
+     }
+     .content_text img{
+         float:left;
+         padding-right:20px;
+     }
+     .footer_box{
+        width:100%;
+        float:left;
+        height:auto;
+         margin-right:50px;
+     }
+     .footer_middle .break{
+        display: block;
+     }
+     .footer_middle ul{
+        float:left;
+     }
+     .footer_middle ul li{
+         padding-right:12px;
+     }
+     .footer_top a, .footer_middle ul a, .footer_middle ul li, .footer_bottom{
+         font-size: 20px;
+     }
+    .screen{
+        
+       width:600px;
+    }
+    .screen_slide_text{
+         width: 600px;
+     }
+     .slide_outer{
+         width:100%;
+         min-width:610px;
+     }
+     .slide_text{
+         bottom:10px;
+         left:15px;
+     }
+     .top_menu li{
+         padding:0;
+     }
+     
+     
+     
+}
+/*End config for iPhone */
