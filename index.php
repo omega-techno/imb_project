@@ -1,6 +1,6 @@
 <?php include('layers/head.html');?>
 
-<title>AECC Cambodia</title>
+<title>IMB Cambodia</title>
 </head>
 
 <body>
