@@ -1,4 +1,5 @@
 ﻿#banner{
+    
 	height:340px;
 	overflow:hidden;
 }
@@ -233,10 +234,11 @@
         font-size:22px;
     }
     #banner{
-        width:170px;
+       
+        width:100%;
     }
     #banner img{
         min-width: 100%;
-        width:668px;
+        
     }
 }

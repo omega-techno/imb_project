@@ -1,6 +1,6 @@
 <?php include('layers/head.html');?>
 
-<title>AECC Cambodia</title>
+<title>IMB Cambodia</title>
 <link rel="stylesheet" href="css/products.css">
 </head>
 
