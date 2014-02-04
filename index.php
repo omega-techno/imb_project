@@ -60,4 +60,4 @@
 		</div>
 	</div>
 	<!------------------------- MAIN CONTENT ------------------------------->
-	<?php include('layers/footer.html');?>FCVDEE
+	<?php include('layers/footer.html');?>
