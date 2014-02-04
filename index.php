@@ -60,5 +60,5 @@
 		</div>
 	</div>
 	<!------------------------- MAIN CONTENT ------------------------------->
-	<?php include('layers/footer.html');?>
+	<?php include('layers/footer.html');?>XXXX
 
